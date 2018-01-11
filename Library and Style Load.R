@@ -1,14 +1,13 @@
-if (!require("pacman")) install.packages("pacman")
-pacman::p_load(data.table, 
-               lubridate, 
-               magrittr,
-               ggplot2,
-               scales,
-               zoo,
-               tidyverse,
-               knitr,
-               RcppRoll,
-               units)
+library(data.table)
+library(lubridate)
+library(magrittr)
+library(ggplot2)
+library(scales)
+library(zoo)
+library(tidyverse)
+library(knitr)
+library(RcppRoll)
+library(units)
 
 
 #  Plot Theme ------------------
